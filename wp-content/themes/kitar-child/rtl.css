@@ -1,0 +1,62 @@
+.th-header .header-layout1 .header-absolute .sticky-wrapper .th-container{
+	width: 100%;
+	max-width: 1500px;
+}
+.preloader{
+ background: rgb(63,94,251);
+ background: rgb(63,94,251);background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(157,70,252,1) 54%); }
+
+/***breadcumb banner overlay color ***/
+.breadcumb-wrapper::before {
+	background: rgba(60, 19, 208, 0.2) !important;
+	display:none;
+}
+
+/***********fixing the single blog item page******/
+.th-comments-wrap .reply_and_edit{
+	margin-right: 200px;
+}
+.th-comments-wrap .comment-content {
+	margin-right: 10px;
+}
+.widget_categories{
+	padding: 17px 45px;
+}
+/******single blog page navigation*******/
+.blog-navigation {
+	flex-direction: row-reverse !important;
+}
+.blog-navigation .nav-btn {
+	flex-flow: row-reverse; !important;
+}
+.blog-navigation .nav-btn.next {
+	flex-flow: wrap-reverse; !important;
+}
+
+.recent-post .recent-post-meta a i, .blog-meta a i {
+	margin-right: 2px !important;
+	margin-left: 6px !important;
+}
+
+
+/**fix ipad look**/
+@media only screen and (max-width: 1024px) {
+	.header-top{
+		display:none;
+	}
+	.menu-area .col-auto{
+		margin: 0 auto;
+	}
+	:root {
+    overflow-x: hidden;
+}
+	.header-layout1 .header-logo {
+    padding-top: 10px;
+}
+	.header-layout1 .main-menu > ul > li > a {
+    padding: 7px 0;
+}
+	.icon-btn {
+    background-color: unset;
+}
+}

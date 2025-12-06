@@ -1,0 +1,26 @@
+/*
+Theme Name: Medinakids
+Theme URI: https://evoxteam.com
+Template: kitar
+Author: Evoxteam
+Author URI: https://evoxteam,com
+Description: Medinakids Kitar child by Evoxteam
+Tags: one-column,flexible-header,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,rtl-language-support,sticky-post,threaded-comments,translation-ready
+Version: 1.0.0.1727696228
+Updated: 2024-09-30 13:37:08
+
+*/
+
+.th-header .header-layout1 .header-absolute .sticky-wrapper .th-container{
+
+	width: 100%;
+	max-width: 1500px;
+}
+.breadcumb-wrapper::before {
+	background: rgba(60, 19, 208, 0.2) !important;
+	display:none;
+}
+.preloader{
+ background: rgb(63,94,251);
+ background: rgb(63,94,251);background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(157,70,252,1) 54%); }
+
